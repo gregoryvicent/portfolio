@@ -3,7 +3,7 @@ import HeaderDesktop from "./headerDesktop";
 import SocialNetwork from "./socialNetwork";
 import { Container, Row, Col } from "react-bootstrap";
 
-import { column, profile } from "./layout.module.css";
+import { column, profile, layoutMain } from "./layout.module.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
           <HeaderDesktop />
         </Col>
         <Col className={column}>
-          <main>{children}</main>
+          <main className={layoutMain}>{children}</main>
         </Col>
         <Col xs={1}>
           <SocialNetwork />

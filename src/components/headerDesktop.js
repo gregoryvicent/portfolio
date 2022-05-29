@@ -10,12 +10,13 @@ import {
   headerDesktopItem,
   headerDesktopProfile
 } from "./headerDesktop.module.css";
-
 import { linkAlignCenter } from "../css/style.module.css"
+
+import CV from "../assets/Gregory_CV_2022.pdf"
 
 const HeaderDesktop = () => {
   return (
-    <header>
+    <header className={headerDesktop}>
       <div className={headerDesktopProfile}>
         <Figure className={headerDesktopFigure}>
           <StaticImage
@@ -26,13 +27,13 @@ const HeaderDesktop = () => {
           />
           <Figure.Caption>Gregory Vicent</Figure.Caption>
         </Figure>
-        <a href="#" className={linkAlignCenter}>Descargar CV</a>
+        <a href={CV} className={linkAlignCenter} target="_blank">Descargar CV</a>
       </div>
       <nav>
         <ul>
           <li className={headerDesktopItem}>
             <Link to="/">
-              <Card bg="light">
+              <Card bg="light" border="primary">
                 <Card.Body>
                   <Card.Title>Home</Card.Title>
                   <Card.Text>
@@ -44,7 +45,7 @@ const HeaderDesktop = () => {
           </li>
           <li className={headerDesktopItem}>
             <Link to="/portafolio">
-              <Card bg="light">
+              <Card bg="light" border="primary">
                 <Card.Body>
                   <Card.Title>Portafolio</Card.Title>
                   <Card.Text>
@@ -56,7 +57,7 @@ const HeaderDesktop = () => {
           </li>
           <li className={headerDesktopItem}>
             <Link to="/blog">
-              <Card bg="light">
+              <Card bg="light" border="primary">
                 <Card.Body>
                   <Card.Title>Blog</Card.Title>
                   <Card.Text>

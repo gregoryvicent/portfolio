@@ -1,5 +1,6 @@
 .header-desktop {
   position: fixed;
+  width: inherit;
 }
 
 .header-desktop-profile {
@@ -15,12 +16,12 @@
 
 .header-desktop-img {
   border-radius: 50%;
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
 }
 
 .header-desktop-item {
   list-style: none;
   margin: .5rem 0;
-  margin-right: 20px;
+  margin-right: 25px;
 }

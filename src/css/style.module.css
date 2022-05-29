@@ -3,6 +3,16 @@
   margin: 2rem 0;
 }
 
+.H2 {
+  margin: 4rem 0;
+}
+
+.H3 {
+  margin: 3rem;
+  font-size: 1.7rem;
+  text-decoration: underline;
+}
+
 .Li {
   list-style: none;
 }
@@ -10,4 +20,10 @@
 .link-align-center {
   text-align: center;
   display: block;
+}
+
+.text {
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin: 1rem 0;
 }

@@ -1,8 +1,13 @@
 .column {
-  border: 1px red solid;
+  /* border: 1px red solid; */
 }
 
 .profile {
-  border: 1px red solid;
+  /* border: 1px red solid; */
   height: 100vh;
+}
+
+.layout-main {
+  padding: 0 4rem;
+  margin-bottom: 10rem;
 }
