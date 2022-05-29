@@ -1,0 +1,13 @@
+.H1 {
+  font-size: 4rem;
+  margin: 2rem 0;
+}
+
+.Li {
+  list-style: none;
+}
+
+.link-align-center {
+  text-align: center;
+  display: block;
+}

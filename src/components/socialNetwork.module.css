@@ -1,0 +1,13 @@
+.network-box {
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.network-icon {
+  width: 30px;
+  cursor: pointer;
+  margin: 1rem 0;
+}

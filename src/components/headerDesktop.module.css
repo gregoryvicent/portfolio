@@ -1,0 +1,26 @@
+.header-desktop {
+  position: fixed;
+}
+
+.header-desktop-profile {
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-desktop-figure {
+  text-align: center;
+}
+
+.header-desktop-img {
+  border-radius: 50%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.header-desktop-item {
+  list-style: none;
+  margin: .5rem 0;
+  margin-right: 20px;
+}
